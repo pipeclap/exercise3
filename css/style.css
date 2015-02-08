@@ -31,13 +31,33 @@
             transform: rotate(360deg); } }
 
 /* line 1, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
-.donateContainer {
+body {
+  background: transparent url("../images/kidwater.jpg") no-repeat fixed center;
+  background-size: cover;
+  overflow: hidden; }
+
+/* line 7, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
+h1 {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 100px;
+  color: #ffae00;
+  text-decoration: none; }
+
+/* line 16, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
+.donatecontainer {
   position: relative;
   width: 207px;
   margin: auto;
   margin-top: 100px; }
 
-/* line 7, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
+/* line 23, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
+.donatesize {
+  width: 125%;
+  margin-left: 10%; }
+
+/* line 28, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
 .donate {
   margin: auto;
   position: relative;
@@ -46,9 +66,9 @@
   z-index: 2;
   display: block; }
 
-/* line 15, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
+/* line 37, /Users/pipeclap/Desktop/Final Web Development/exercise3/scss/components/main */
 .donate:hover + .rays {
-  height: 200px;
-  width: 200px;
-  opacity: 1;
+  height: 300px;
+  width: 300px;
+  opacity: 5;
   margin-top: -105px; }
